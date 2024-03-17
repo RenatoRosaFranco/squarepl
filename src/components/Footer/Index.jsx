@@ -12,7 +12,7 @@ const Footer = () => {
 							<div className="col-md-2">
 								<ul className="list-unstyled">
 									<li><Link to="/privacy">Privacy Policy</Link></li>
-									<li><Link to="/">Impressum</Link></li>
+									<li><Link to="/impressum">Impressum</Link></li>
 									<li><Link to="/terms">Terms of Service</Link></li>
 								</ul>
 							</div>
