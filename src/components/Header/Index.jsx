@@ -17,7 +17,7 @@ const Header = () => {
               <span className="icon-bar"></span>
             </button>
 
-            <Link to="/" className='navbar-brand'>Square</Link>
+            <Link className='navbar-brand' to="/">Square</Link>
           </div>
 
           {/* Collect the nav links, forms, and other content for toggling */}
