@@ -29,11 +29,12 @@ const Header = () => {
               <li><Link to="/#contact">Contact</Link></li>
               <li><Link to="/jobs">Jobs</Link></li>
               <li className="dropdown">
-              <a href="#" className="dropdown-toggle" data-toggle="dropdown" 
-              role="button" aria-haspopup="true" aria-expanded="false">
-                <i class="fa-solid fa-globe" style={{ marginRight: 10 }}></i>
+              <button className="dropdown-toggle btn btn-default" type="button" 
+                data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                <i className="fa-solid fa-globe" style={{ marginRight: 10 }}></i>
                 English <span className="caret"></span>
-              </a>
+              </button>
               <ul className="dropdown-menu">
                 <li>
                   <Link to="/service2">
